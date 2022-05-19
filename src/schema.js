@@ -37,6 +37,7 @@ const typeDefs = gql`
     thumbnail: String
     "The track's approximate length to complete, in minutes"
     length: Int
+    durationInSeconds: Int
     "The number of modules this track contains"
     modulesCount: Int
     "The track's complete description, can be in markdown format"
